@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-header .title {
+  margin-top: 40px;
+}
+
+.App-header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: .2s all;
+}
+
+.App-header a:hover {
+  opacity: .7;
+}
+
+.githubIcon {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.Countdown {
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+
+.Countdown-col {
+  display: inline-block;
+}
+
+.Countdown-col-element {
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Countdown-col-element strong {
+  font-size: 50px;
+}
+
+.counter-boxes {
+  background-color: #0000;
+  border: 2px #fff dotted;
+  color: #fff;
+  width: 8.5rem;
+  height: 8.5rem;
+
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-boxes-holder {
+  display: flex;
+  justify-content: center;
+}
+
+
+.bg-glow:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0%;
+  bottom: 10%;
+  width: 150%;
+  left: -25%;
+  background: repeat, linear-gradient(83.21deg, #3245ff 0%, #bc52ee 100%);
+  background-blend-mode: overlay;
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, .5), transparent 70%);
+  mask-image: radial-gradient(rgba(0, 0, 0, .5), transparent 70%);
+}
+
+.bg-countdown {
+  background-color: #111111;
+  border-radius: 2rem;
+  box-shadow: 0 0rem 5rem rgba(255, 255, 255, 0.048) !important;
+}
+
+.footer-text{
+  position: absolute;
+  
+}
