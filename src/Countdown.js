@@ -21,25 +21,25 @@ const Countdown = ({ date }) => {
     <div className="row">
       <div className="col-lg-3 col-md-6 col-sm-12 counter-boxes-holder mb-3">
         <div className="counter-boxes">
-          <h1 className="mb-0 display-4 fw-bold">{days}</h1>
+          <h2 className="mb-0 display-5 fw-bold">{days}</h2>
           <h4 className="mb-0">Days</h4>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12 counter-boxes-holder mb-3">
         <div className="counter-boxes">
-        <h1 className="mb-0 display-4 fw-bold">{hours}</h1>
+        <h2 className="mb-0 display-5 fw-bold">{hours}</h2>
           <h4 className="mb-0">hours</h4>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12 counter-boxes-holder mb-3">
         <div className="counter-boxes">
-        <h1 className="mb-0 display-4 fw-bold">{minutes}</h1>
+        <h2 className="mb-0 display-5 fw-bold">{minutes}</h2>
           <h4 className="mb-0">Minutes</h4>
         </div>
       </div>
       <div className="col-lg-3 col-md-6 col-sm-12 counter-boxes-holder mb-3">
         <div className="counter-boxes">
-        <h1 className="mb-0 display-3 fw-bold">{seconds}</h1>
+        <h2 className="mb-0 display-5 fw-bold">{seconds}</h2>
           <h4 className="mb-0">Seconds</h4>
         </div>
       </div>
