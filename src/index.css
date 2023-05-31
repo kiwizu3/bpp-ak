@@ -97,7 +97,7 @@ body {
   z-index: -1;
   top: 0%;
   bottom: 10%;
-  width: 150%;
+  width: 100%;
   left: -25%;
   background: repeat, linear-gradient(83.21deg, #3245ff 0%, #bc52ee 100%);
   background-blend-mode: overlay;
